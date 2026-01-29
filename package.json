@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Highly efficient and robust MCP server for Asana project management with advanced batch operations, direct section assignment, and enterprise-grade reliability",
   "repository": {
     "type": "git",
@@ -46,12 +46,12 @@
     "@types/node": "^22.10.1",
     "esbuild": "^0.24.0",
     "esbuild-register": "^3.6.0",
-    "jsdom": "^26.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.4.1",
-    "asana": "^3.0.12"
+    "asana": "^3.0.12",
+    "jsdom": "^26.0.0"
   }
 }
