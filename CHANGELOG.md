@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-01-30
+
+### Fixed
+
+- Moved `jsdom` from `devDependencies` to `dependencies` to fix ERR_MODULE_NOT_FOUND error when running via npx
+
 ## [1.0.0] - 2026-01-29
 
 ### Added
@@ -48,5 +54,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This release builds upon the foundation of [roychri/mcp-server-asana](https://github.com/roychri/mcp-server-asana), incorporating all existing MCP server functionality for Asana API integration including core task management, project operations, custom fields, and MCP resources.
 
-[unreleased]: https://github.com/n0zer0d4y/asana-project-ops/compare/v1.0.0..HEAD
+[unreleased]: https://github.com/n0zer0d4y/asana-project-ops/compare/v1.0.1..HEAD
+[1.0.1]: https://github.com/n0zer0d4y/asana-project-ops/compare/v1.0.0..v1.0.1
 [1.0.0]: https://github.com/n0zer0d4y/asana-project-ops/releases/tag/v1.0.0
