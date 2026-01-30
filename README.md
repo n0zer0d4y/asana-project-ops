@@ -539,6 +539,7 @@ Asana Project Ops provides comprehensive tool categorization for efficient workf
 11. **`asana_search_tasks`**
 
 - Search tasks in a workspace with advanced filtering options
+- **Premium Required:** This endpoint requires an Asana Premium, Business, or Enterprise subscription. Free tier users will receive a `402 Payment Required` error. For free tier alternatives, use `asana_get_task` with known task IDs or retrieve tasks via project/section and filter client-side.
 - **Optional input:**
   - `workspace` (string): The workspace to search in (optional)
   - `text` (string): Text to search for in task names and descriptions
