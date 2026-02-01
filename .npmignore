@@ -1,0 +1,62 @@
+# Source code - not needed in published package
+src/
+
+# Development dependencies and tools
+node_modules/
+.aider*
+.vscode/
+
+# Development and internal documentation
+local_docs/
+docs/
+_NOTES.md
+
+# Build artifacts (only dist/ is published via package.json "files")
+build.js
+tsconfig.json
+
+# Environment and secrets
+.env*
+
+# Development scripts
+scripts/
+
+# Git and repository files
+.git/
+.gitignore
+.github/
+
+# Testing and CI
+*.test.js
+*.spec.js
+
+# IDE and editor files
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
